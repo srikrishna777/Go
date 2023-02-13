@@ -1,0 +1,13 @@
+package main
+
+import (
+	"fmt"
+	"path"
+)
+
+func main() {
+
+	folder, _ := path.Split("secret/file.txt")
+
+	fmt.Println(folder)
+}
