@@ -1,0 +1,11 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	Temperature := 29.500000
+
+	fmt.Printf("Temperature is %.1f degrees.", Temperature)
+}
